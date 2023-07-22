@@ -17,7 +17,9 @@
 body {
   font-family: "Public Sans", sans-serif;
   background-color: var(--lightGray);
+  width: 100svw;
   width: 100vw;
+  height: 100svh;
   height: 100vh;
 }
 
@@ -42,21 +44,26 @@ body {
 .card-title {
   color: var(--darkBlue);
   text-align: center;
-  padding-inline: 2rem;
-  font-size: large;
 }
 
 .card-text {
   color: var(--grayishBlue);
   font-size: 0.8rem;
+}
+
+/* auxillary class */
+.t-c {
   text-align: center;
   padding-inline: 2rem;
 }
 
 .attribution {
-  font-size: 11px;
-  /* text-align: center; */
+  position: absolute;
+  padding: 2rem;
+  bottom: 2rem;
+  font-size: 0.7rem;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
