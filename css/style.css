@@ -21,29 +21,32 @@ body {
   width: 100vw;
   height: 100svh;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 #main-card {
-  position: relative;
   background-color: var(--white);
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.2rem;
   width: 20rem;
-  height: 30.25rem;
+  /* height: 31.125rem; */
   padding: 1rem;
-  inset: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .card-img {
-  border-radius: 0.6rem;
+  border-radius: 0.9rem;
 }
 
 .card-title {
   color: var(--darkBlue);
   text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .card-text {
@@ -51,16 +54,25 @@ body {
   font-size: 0.8rem;
 }
 
-/* auxillary class */
+/* auxillary class
 .t-c {
   text-align: center;
-  padding-inline: 2rem;
+  /* padding-inline: 1rem; */
+  /* font-stretch: 50px;
+  width: 21ch;
+  margin: auto; 
+  
+} */
+
+.card-body {
+  text-align: center;
+  margin-inline: 1rem;
 }
 
 .attribution {
   position: absolute;
-  padding: 2rem;
-  bottom: 2rem;
+  padding: 1rem;
+  bottom: 1rem;
   font-size: 0.7rem;
 }
 
