@@ -18,8 +18,8 @@ body {
   font-family: "Public Sans", sans-serif;
   background-color: var(--lightGray);
   width: 100svw;
-  width: 100vw;
   height: 100svh;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -34,7 +34,6 @@ body {
   flex-direction: column;
   gap: 1.2rem;
   width: 20rem;
-  /* height: 31.125rem; */
   padding: 1rem;
 }
 
@@ -45,29 +44,27 @@ body {
 .card-title {
   color: var(--darkBlue);
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .card-text {
   color: var(--grayishBlue);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
-/* auxillary class
-.t-c {
-  text-align: center;
-  /* padding-inline: 1rem; */
-  /* font-stretch: 50px;
-  width: 21ch;
-  margin: auto; 
-  
-} */
+
 
 .card-body {
   text-align: center;
-  margin-inline: 1rem;
+  margin-inline: 0.8rem;
 }
+
+.card-body > * {
+  margin-bottom: 1.2rem;
+}
+
 
 .attribution {
   position: absolute;
